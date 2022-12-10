@@ -32,6 +32,11 @@
   </div>
   {% include landing-page.html %}
   <div class="layout">
+    {%if site.gif-landing %}
+      <section align="center">
+        {% include gif-landing.html %}
+      </section>
+    {% endif %}
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}

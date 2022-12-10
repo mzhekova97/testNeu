@@ -26,6 +26,9 @@ youtube_link: https://www.youtube.com/watch?v=zPbPe9JXgKk
 dev_username: exampleUser
 linkedin_username: exampleUser
 twitter_username: exampleUser
+
+# LANDING GIF
+gif-landing: true
 # ABOUT ME SECTION
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
